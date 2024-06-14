@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Serve static files from the React app
-app.use(express.static(path.join(__dirname, '../client/build')));
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.post('/parse-resume', (req, res) => {
     const resume = req.body.resume;
@@ -43,7 +43,7 @@ app.post('/parse-resume', (req, res) => {
 
 // Handle React routing, return all requests to the React app
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
 app.listen(3000, () => {
