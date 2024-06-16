@@ -3,8 +3,6 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
-  padding: 20px;
 }
 
 .App-header {
@@ -16,30 +14,25 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  font-size: 2.5rem;
+.resultshow{
+  background-color: #282c34;
+  text-decoration-color: ;
 }
 
 form {
-  margin: 20px 0;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-input[type="file"] {
-  margin: 10px 0;
 }
 
 textarea {
   width: 60%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #1c1b1b;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
 
@@ -55,34 +48,18 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 4px;
-  transition: background-color 0.3s;
 }
 
 button:hover {
   background-color: #21a1f1;
 }
 
-h2 {
-  margin-top: 20px;
-  font-size: 1.8rem;
-  color: #ffffff;
-}
-
 pre {
   text-align: left;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow-x: auto;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  background-color: #f6f8fa;
+  padding: 10px;
+  border-radius: 4px;
   max-width: 80%;
   margin: 20px auto;
-}
-
-pre code {
-  color: #ffffff;
-  font-size: 1rem;
-  line-height: 1.5;
+  overflow-x: auto;
 }

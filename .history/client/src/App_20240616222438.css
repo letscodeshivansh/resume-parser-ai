@@ -39,7 +39,7 @@ textarea {
   width: 60%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #1c1b1b;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
 
@@ -70,7 +70,7 @@ h2 {
 
 pre {
   text-align: left;
-  background-color: #ffffff;
+  background-color: #090909;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
