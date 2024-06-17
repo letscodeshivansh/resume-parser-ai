@@ -38,7 +38,7 @@ This project is designed to parse resumes in PDF format, extract relevant inform
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/resume-parser.git
+   git clone https://github.com/letscodeshivansh/resume-parser.git
    cd resume-parser
    ```
 2. Create and activate a virtual environment (optional but recommended):
