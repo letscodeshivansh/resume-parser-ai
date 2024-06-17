@@ -1,7 +1,13 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 import sys
+import json
 import nltk
 import pdfplumber
+
+nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from fuzzywuzzy import fuzz
@@ -24,16 +30,14 @@ def process_resume(resume_text, job_requirements):
     skill_match = [fuzz.token_set_ratio(skill, job_requirements) for skill in filtered_tokens]
     match_percentage = sum(skill_match) / len(filtered_tokens) * 100 if filtered_tokens else 0
 
-    # Create a DataFrame with the extracted data
     data = {
         'Name': name[0] if name else 'N/A',
         'Phone Number': phone_number[0] if phone_number else 'N/A',
-        'Skills': ', '.join(filtered_tokens),
+        'Skills': filtered_tokens,
         'Match Percentage': match_percentage
     }
 
-    df = pd.DataFrame([data])
-    return df
+    return data
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
@@ -44,8 +48,8 @@ if __name__ == "__main__":
     job_requirements = sys.argv[2]
 
     try:
-        result_df = process_resume(resume_text, job_requirements)
-        print(result_df.to_string(index=False))  # Print the DataFrame as a table
+        result = process_resume(resume_text, job_requirements)
+        print(json.dumps(result))
     except Exception as e:
         print(f"Error processing resume: {e}", file=sys.stderr)
         sys.exit(1)

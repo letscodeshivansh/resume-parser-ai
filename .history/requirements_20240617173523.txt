@@ -5,8 +5,3 @@ seaborn
 fuzzywuzzy
 spacy
 python-Levenshtein
-numpy 
-thinc
-pandas
-numpy 
-thinc

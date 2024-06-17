@@ -17,11 +17,6 @@ app.post('/parse-resume', upload.single('file'), async (req, res) => {
     return res.status(400).send('No file uploaded.');
   }
 
-  const jobRequirements = req.body.jobRequirements;
-  if (!jobRequirements) {
-    return res.status(400).send('Job requirements not provided.');
-  }
-
   const filePath = req.file.path;
   console.log(`File uploaded: ${filePath}`);
 
@@ -35,7 +30,7 @@ app.post('/parse-resume', upload.single('file'), async (req, res) => {
     const scriptPath = path.join(__dirname, 'process_resume.py');
     console.log(`Script path: ${scriptPath}`);
 
-    exec(`python ${scriptPath} "${resumeText.replace(/"/g, '\\"')}" "${jobRequirements.replace(/"/g, '\\"')}"`, (error, stdout, stderr) => {
+    exec(`python ${scriptPath} "${resumeText}"`, (error, stdout, stderr) => {
       if (error) {
         console.error(`exec error: ${error}`);
         return res.status(500).send('Failed to parse resume. Please try again.');
@@ -43,7 +38,7 @@ app.post('/parse-resume', upload.single('file'), async (req, res) => {
       console.log(`stdout: ${stdout}`);
       console.error(`stderr: ${stderr}`);
 
-      res.json({ parsed: JSON.parse(stdout) });
+      res.json({ parsed: stdout });
     });
   } catch (err) {
     console.error(err);
@@ -59,3 +54,6 @@ const PORT = process.env.PORT || 6969;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+
+

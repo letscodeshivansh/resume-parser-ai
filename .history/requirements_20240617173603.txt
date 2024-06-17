@@ -4,9 +4,4 @@ matplotlib
 seaborn
 fuzzywuzzy
 spacy
-python-Levenshtein
-numpy 
-thinc
-pandas
-numpy 
-thinc
+python-Levenshteinumpy thinc
