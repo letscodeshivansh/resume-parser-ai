@@ -9,11 +9,6 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
 
-with pdfplumber.open('resume.pdf') as pdf:
-    text = ''
-    for page in pdf.pages:
-        resume_text += page.extract_text()
-        
 def process_resume(resume_text):
     stop_words = set(stopwords.words('english'))
     word_tokens = word_tokenize(resume_text)
@@ -23,6 +18,13 @@ def process_resume(resume_text):
     common_words = freq_dist.most_common(10)
     return common_words
 
+
+import pdfplumber
+
+with pdfplumber.open('resume.pdf') as pdf:
+    text = ''
+    for page in pdf.pages:
+        text += page.extract_text()
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

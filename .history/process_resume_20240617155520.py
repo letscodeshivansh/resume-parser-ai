@@ -12,8 +12,8 @@ from nltk.probability import FreqDist
 with pdfplumber.open('resume.pdf') as pdf:
     text = ''
     for page in pdf.pages:
-        resume_text += page.extract_text()
-        
+        text += page.extract_text()
+
 def process_resume(resume_text):
     stop_words = set(stopwords.words('english'))
     word_tokens = word_tokenize(resume_text)

@@ -153,6 +153,166 @@
         "documentation": {}
     },
     {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
         "label": "word_tokenize",
         "importPath": "nltk.tokenize",
         "description": "nltk.tokenize",
@@ -468,6 +628,86 @@
         "documentation": {}
     },
     {
+        "label": "FreqDist",
+        "importPath": "nltk.probability",
+        "description": "nltk.probability",
+        "isExtraImport": true,
+        "detail": "nltk.probability",
+        "documentation": {}
+    },
+    {
+        "label": "FreqDist",
+        "importPath": "nltk.probability",
+        "description": "nltk.probability",
+        "isExtraImport": true,
+        "detail": "nltk.probability",
+        "documentation": {}
+    },
+    {
+        "label": "FreqDist",
+        "importPath": "nltk.probability",
+        "description": "nltk.probability",
+        "isExtraImport": true,
+        "detail": "nltk.probability",
+        "documentation": {}
+    },
+    {
+        "label": "FreqDist",
+        "importPath": "nltk.probability",
+        "description": "nltk.probability",
+        "isExtraImport": true,
+        "detail": "nltk.probability",
+        "documentation": {}
+    },
+    {
+        "label": "FreqDist",
+        "importPath": "nltk.probability",
+        "description": "nltk.probability",
+        "isExtraImport": true,
+        "detail": "nltk.probability",
+        "documentation": {}
+    },
+    {
+        "label": "FreqDist",
+        "importPath": "nltk.probability",
+        "description": "nltk.probability",
+        "isExtraImport": true,
+        "detail": "nltk.probability",
+        "documentation": {}
+    },
+    {
+        "label": "FreqDist",
+        "importPath": "nltk.probability",
+        "description": "nltk.probability",
+        "isExtraImport": true,
+        "detail": "nltk.probability",
+        "documentation": {}
+    },
+    {
+        "label": "FreqDist",
+        "importPath": "nltk.probability",
+        "description": "nltk.probability",
+        "isExtraImport": true,
+        "detail": "nltk.probability",
+        "documentation": {}
+    },
+    {
+        "label": "FreqDist",
+        "importPath": "nltk.probability",
+        "description": "nltk.probability",
+        "isExtraImport": true,
+        "detail": "nltk.probability",
+        "documentation": {}
+    },
+    {
+        "label": "FreqDist",
+        "importPath": "nltk.probability",
+        "description": "nltk.probability",
+        "isExtraImport": true,
+        "detail": "nltk.probability",
+        "documentation": {}
+    },
+    {
         "label": "stringify",
         "importPath": "flatted",
         "description": "flatted",
@@ -715,6 +955,78 @@
         "description": ".history.process_resume_20240615191746",
         "peekOfCode": "def process_resume(resume_text):\n    stop_words = set(stopwords.words('english'))\n    word_tokens = word_tokenize(resume_text)\n    filtered_text = [w for w in word_tokens if w.lower() not in stop_words and w.isalnum()]\n    freq_dist = FreqDist(filtered_text)\n    common_words = freq_dist.most_common(10)\n    return common_words\nif __name__ == \"__main__\":\n    if len(sys.argv) < 2:\n        print(\"Usage: python process_resume.py <resume_text>\")",
         "detail": ".history.process_resume_20240615191746",
+        "documentation": {}
+    },
+    {
+        "label": "process_resume",
+        "kind": 2,
+        "importPath": ".history.process_resume_20240617155302",
+        "description": ".history.process_resume_20240617155302",
+        "peekOfCode": "def process_resume(resume_text):\n    stop_words = set(stopwords.words('english'))\n    word_tokens = word_tokenize(resume_text)\n    filtered_text = [w for w in word_tokens if w.lower() not in stop_words and w.isalnum()]\n    freq_dist = FreqDist(filtered_text)\n    common_words = freq_dist.most_common(10)\n    return common_words\nimport pdfplumber\nwith pdfplumber.open('resume.pdf') as pdf:\n    text = ''",
+        "detail": ".history.process_resume_20240617155302",
+        "documentation": {}
+    },
+    {
+        "label": "process_resume",
+        "kind": 2,
+        "importPath": ".history.process_resume_20240617155437",
+        "description": ".history.process_resume_20240617155437",
+        "peekOfCode": "def process_resume(resume_text):\n    stop_words = set(stopwords.words('english'))\n    word_tokens = word_tokenize(resume_text)\n    filtered_text = [w for w in word_tokens if w.lower() not in stop_words and w.isalnum()]\n    freq_dist = FreqDist(filtered_text)\n    common_words = freq_dist.most_common(10)\n    return common_words\nif __name__ == \"__main__\":\n    if len(sys.argv) < 2:\n        print(\"Usage: python process_resume.py <resume_text>\")",
+        "detail": ".history.process_resume_20240617155437",
+        "documentation": {}
+    },
+    {
+        "label": "process_resume",
+        "kind": 2,
+        "importPath": ".history.process_resume_20240617155458",
+        "description": ".history.process_resume_20240617155458",
+        "peekOfCode": "def process_resume(resume_text):\n    stop_words = set(stopwords.words('english'))\n    word_tokens = word_tokenize(resume_text)\n    filtered_text = [w for w in word_tokens if w.lower() not in stop_words and w.isalnum()]\n    freq_dist = FreqDist(filtered_text)\n    common_words = freq_dist.most_common(10)\n    return common_words\nif __name__ == \"__main__\":\n    if len(sys.argv) < 2:\n        print(\"Usage: python process_resume.py <resume_text>\")",
+        "detail": ".history.process_resume_20240617155458",
+        "documentation": {}
+    },
+    {
+        "label": "process_resume",
+        "kind": 2,
+        "importPath": ".history.process_resume_20240617155520",
+        "description": ".history.process_resume_20240617155520",
+        "peekOfCode": "def process_resume(resume_text):\n    stop_words = set(stopwords.words('english'))\n    word_tokens = word_tokenize(resume_text)\n    filtered_text = [w for w in word_tokens if w.lower() not in stop_words and w.isalnum()]\n    freq_dist = FreqDist(filtered_text)\n    common_words = freq_dist.most_common(10)\n    return common_words\nif __name__ == \"__main__\":\n    if len(sys.argv) < 2:\n        print(\"Usage: python process_resume.py <resume_text>\")",
+        "detail": ".history.process_resume_20240617155520",
+        "documentation": {}
+    },
+    {
+        "label": "process_resume",
+        "kind": 2,
+        "importPath": ".history.process_resume_20240617155551",
+        "description": ".history.process_resume_20240617155551",
+        "peekOfCode": "def process_resume(text):\n    stop_words = set(stopwords.words('english'))\n    word_tokens = word_tokenize(resumetext)\n    filtered_text = [w for w in word_tokens if w.lower() not in stop_words and w.isalnum()]\n    freq_dist = FreqDist(filtered_text)\n    common_words = freq_dist.most_common(10)\n    return common_words\nif __name__ == \"__main__\":\n    if len(sys.argv) < 2:\n        print(\"Usage: python process_resume.py <resume_text>\")",
+        "detail": ".history.process_resume_20240617155551",
+        "documentation": {}
+    },
+    {
+        "label": "process_resume",
+        "kind": 2,
+        "importPath": ".history.process_resume_20240617155650",
+        "description": ".history.process_resume_20240617155650",
+        "peekOfCode": "def process_resume(resume_text):\n    stop_words = set(stopwords.words('english'))\n    word_tokens = word_tokenize(resume_text)\n    filtered_text = [w for w in word_tokens if w.lower() not in stop_words and w.isalnum()]\n    freq_dist = FreqDist(filtered_text)\n    common_words = freq_dist.most_common(10)\n    return common_words\nif __name__ == \"__main__\":\n    if len(sys.argv) < 2:\n        print(\"Usage: python process_resume.py <resume_text>\")",
+        "detail": ".history.process_resume_20240617155650",
+        "documentation": {}
+    },
+    {
+        "label": "process_resume",
+        "kind": 2,
+        "importPath": ".history.process_resume_20240617155738",
+        "description": ".history.process_resume_20240617155738",
+        "peekOfCode": "def process_resume(resume_text):\n    stop_words = set(stopwords.words('english'))\n    word_tokens = word_tokenize(resume_text)\n    filtered_text = [w for w in word_tokens if w.lower() not in stop_words and w.isalnum()]\n    freq_dist = FreqDist(filtered_text)\n    common_words = freq_dist.most_common(10)\n    return common_words\nif __name__ == \"__main__\":\n    if len(sys.argv) < 2:\n        print(\"Usage: python process_resume.py <resume_text>\")",
+        "detail": ".history.process_resume_20240617155738",
+        "documentation": {}
+    },
+    {
+        "label": "process_resume",
+        "kind": 2,
+        "importPath": ".history.process_resume_20240617155825",
+        "description": ".history.process_resume_20240617155825",
+        "peekOfCode": "def process_resume(resume_text):\n    stop_words = set(stopwords.words('english'))\n    word_tokens = word_tokenize(resume_text)\n    filtered_text = [w for w in word_tokens if w.lower() not in stop_words and w.isalnum()]\n    freq_dist = FreqDist(filtered_text)\n    common_words = freq_dist.most_common(10)\n    return common_words\nif __name__ == \"__main__\":\n    if len(sys.argv) < 2:\n        print(\"Usage: python process_resume.py <resume_text>\")",
+        "detail": ".history.process_resume_20240617155825",
         "documentation": {}
     },
     {

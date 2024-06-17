@@ -12,9 +12,7 @@ from nltk.probability import FreqDist
 with pdfplumber.open('resume.pdf') as pdf:
     text = ''
     for page in pdf.pages:
-        resume_text += page.extract_text()
-        
-def process_resume(resume_text):
+        text += page.extract_text()def process_resume(resume_text):
     stop_words = set(stopwords.words('english'))
     word_tokens = word_tokenize(resume_text)
     filtered_text = [w for w in word_tokens if w.lower() not in stop_words and w.isalnum()]
@@ -22,6 +20,7 @@ def process_resume(resume_text):
     freq_dist = FreqDist(filtered_text)
     common_words = freq_dist.most_common(10)
     return common_words
+
 
 
 if __name__ == "__main__":
