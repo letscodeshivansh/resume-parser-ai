@@ -3,6 +3,9 @@
 
 # Resume Parser  :space_invader:
 
+
+
+
 This project is designed to parse resumes in PDF format, extract relevant information such as name, phone number, skills, and match those skills against job requirements. It utilizes Python, PDFPlumber, spaCy, and other libraries for natural language processing (NLP) and data analysis.
 
 ## Features 📔
