@@ -30,7 +30,7 @@ app.post('/parse-resume', upload.single('file'), async (req, res) => {
     const data = await pdfParse(dataBuffer);
 
     const resumeText = data.text.replace(/(\r\n|\n|\r)/gm, " ");
-    // console.log('Received resume:', resumeText);
+    console.log('Received resume:', resumeText);
 
     const scriptPath = path.join(__dirname, 'process_resume.py');
     console.log(`Script path: ${scriptPath}`);
@@ -41,12 +41,10 @@ app.post('/parse-resume', upload.single('file'), async (req, res) => {
         return res.status(500).send('Failed to parse resume. Please try again.');
       }
       console.log(`stdout: ${stdout}`);
-      res.send(stdout);
-
       console.error(`stderr: ${stderr}`);
 
-      // Sending plain text response
-      res.send(stdout);
+      // Sending plain text response instead of JSON
+      res.send(`<pre>${stdout}</pre>`);
     });
   } catch (err) {
     console.error(err);

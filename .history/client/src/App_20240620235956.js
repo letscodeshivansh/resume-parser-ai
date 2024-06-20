@@ -13,22 +13,13 @@ function App() {
         formData.append('file', file);
         formData.append('jobRequirements', jobRequirements);
 
-        try {
-            const response = await fetch('/parse-resume', {
-                method: 'POST',
-                body: formData,
-            });
+        const response = await fetch('/parse-resume', {
+            method: 'POST',
+            body: formData,
+        });
 
-            if (!response.ok) {
-                throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
-            }
-
-            const result = await response.text();
-            setParsedResume(result);
-        } catch (error) {
-            console.error('Error parsing resume:', error);
-            setParsedResume('Error: Failed to parse resume. Please try again.');
-        }
+        const result = await response.text();
+        setParsedResume(result);
     };
 
     return (

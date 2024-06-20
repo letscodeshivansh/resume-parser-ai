@@ -41,8 +41,6 @@ app.post('/parse-resume', upload.single('file'), async (req, res) => {
         return res.status(500).send('Failed to parse resume. Please try again.');
       }
       console.log(`stdout: ${stdout}`);
-      res.send(stdout);
-
       console.error(`stderr: ${stderr}`);
 
       // Sending plain text response
