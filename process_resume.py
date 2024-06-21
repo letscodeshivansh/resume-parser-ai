@@ -24,12 +24,12 @@ def process_resume(resume_text, job_requirements):
     skill_match = [fuzz.token_set_ratio(skill, job_requirements) for skill in filtered_tokens]
     match_percentage = sum(skill_match) / len(filtered_tokens) * 100 if filtered_tokens else 0
 
-    # Create a DataFrame with the extracted data
+    # Create a data dictionary with the extracted data
     data = {
         'Name': name[0] if name else 'N/A',
         'Phone Number': phone_number[0] if phone_number else 'N/A',
         'Skills': ', '.join(filtered_tokens),
-        'Match Percentage': match_percentage
+        'Match Percentage': f"{match_percentage:.2f}%"
     }
 
     return data
@@ -45,10 +45,7 @@ if __name__ == "__main__":
     try:
         result = process_resume(resume_text, job_requirements)
         # Print the results in a readable format
-        print(f"Name: {result['Name']}")
-        print(f"Phone Number: {result['Phone Number']}")
-        print(f"Skills: {result['Skills']}")
-        print(f"Match Percentage: {result['Match Percentage']:.2f}%")
+        print(result)
     except Exception as e:
         print(f"Error processing resume: {e}", file=sys.stderr)
         sys.exit(1)

@@ -1,11 +1,10 @@
 import './App.css';
-
 import React, { useState } from 'react';
 
 function App() {
     const [file, setFile] = useState(null);
     const [jobRequirements, setJobRequirements] = useState('');
-    const [parsedResume, setParsedResume] = useState('');
+    const [parsedResume, setParsedResume] = useState(null);
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -23,11 +22,11 @@ function App() {
                 throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
             }
 
-            const result = await response.text();
+            const result = await response.json();
             setParsedResume(result);
         } catch (error) {
             console.error('Error parsing resume:', error);
-            setParsedResume('Error: Failed to parse resume. Please try again.');
+            setParsedResume({ error: 'Failed to parse resume. Please try again.' });
         }
     };
 
@@ -53,7 +52,11 @@ function App() {
                 {parsedResume && (
                     <div>
                         <h2>Parsed Resume:</h2>
-                        <pre>{parsedResume}</pre>
+                        {parsedResume.error ? (
+                            <p>{parsedResume.error}</p>
+                        ) : (
+                            <pre>{JSON.stringify(parsedResume, null, 2)}</pre>
+                        )}
                     </div>
                 )}
             </header>
