@@ -110,7 +110,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **React**: For building the user interface.
 - **Node.js / Express**: For the backend server.
 - **Matplotlib / Seaborn**: For data visualization.
-- **FuzzyWuzzy**: For fuzzy string matching.
+- **FuzzyWuzzy**: For fuzzy string matching..
 
 ## Screenshots :v:
 ![image](https://github.com/letscodeshivansh/resume-parser-ai/assets/125864444/ad2b8483-cede-4293-890d-479cfebedf09)
