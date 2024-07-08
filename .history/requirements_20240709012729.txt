@@ -1,12 +1,15 @@
+os
 numpy
 pandas
 spacy
 pickle-mixin
-PyMuPDF
+random
+PyMuPDFyMuPDF
 matplotlib
 seaborn
 scikit-learn
 ipython
+sys
 nltk
 pdfplumber
 fuzzywuzzy

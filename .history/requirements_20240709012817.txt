@@ -1,0 +1,16 @@
+os
+numpy
+pandass
+spacy
+pickle-mixinckle-mixin
+random
+PyMuPDFyMuPDF
+matplotlib
+seaborn
+scikit-learnt-learn
+ipythonn
+sys
+nltk
+pdfplumber
+fuzzywuzzy
+python-Levenshtein

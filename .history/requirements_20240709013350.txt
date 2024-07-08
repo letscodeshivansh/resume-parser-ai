@@ -2,6 +2,7 @@ numpy
 pandas
 spacy
 pickle-mixin
+random
 PyMuPDF
 matplotlib
 seaborn
