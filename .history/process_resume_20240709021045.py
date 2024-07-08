@@ -84,7 +84,7 @@ true_data = {
 predicted_data = list(result.values())
 true_data_values = list(true_data.values())
 
-# Convert to strings for comparison (if necessary)
+# Convert to strings for comparison
 predicted_data_str = [str(x) for x in predicted_data]
 true_data_str = [str(x) for x in true_data_values]
 

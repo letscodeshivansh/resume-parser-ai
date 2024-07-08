@@ -1,5 +1,4 @@
 import './App.css';
-
 import React, { useState } from 'react';
 
 function App() {
@@ -48,9 +47,7 @@ function App() {
                         onChange={(e) => setJobRequirements(e.target.value)}
                     />
                     <br />
-                    <button type="submit" disabled={!file || !jobRequirements}>
-                        Parse Resume
-                    </button>
+                    <button type="submit">Parse Resume</button>
                 </form>
                 {parsedResume && (
                     <div>

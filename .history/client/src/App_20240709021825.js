@@ -48,10 +48,8 @@ function App() {
                         onChange={(e) => setJobRequirements(e.target.value)}
                     />
                     <br />
-                    <button type="submit" disabled={!file || !jobRequirements}>
-                        Parse Resume
-                    </button>
-                </form>
+                    <button type="submit">Parse Resume</button>
+                </form>a
                 {parsedResume && (
                     <div>
                         <h2>Parsed Resume:</h2>

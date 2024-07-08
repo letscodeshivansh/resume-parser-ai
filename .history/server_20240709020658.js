@@ -35,11 +35,7 @@ app.post('/parse-resume', upload.single('file'), async (req, res) => {
     const scriptPath = path.join(__dirname, 'process_resume.py');
     console.log(`Script path: ${scriptPath}`);
 
-    // Use double quotes for the arguments to handle special characters
-    const command = `python "${scriptPath}" "${resumeText.replace(/"/g, '\\"')}" "${jobRequirements.replace(/"/g, '\\"')}"`;
-    console.log(`Executing command: ${command}`);
-
-    exec(command, (error, stdout, stderr) => {
+    exec(`python ${scriptPath} "${resumeText.replace(/"/g, '\\"')}" "${jobRequirements.replace(/"/g, '\\"')}"`, (error, stdout, stderr) => {
       if (error) {
         console.error(`exec error: ${error}`);
         return res.status(500).send('Failed to parse resume. Please try again.');
