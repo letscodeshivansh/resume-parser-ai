@@ -1,0 +1,8 @@
+Django
+django-crispy-forms
+pyresparser
+gunicorn
+spacy
+pyresparser
+numpy
+thinc 

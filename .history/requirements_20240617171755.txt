@@ -1,3 +1,0 @@
-pdfplumber
-nltk
-matplotlib

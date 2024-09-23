@@ -1,4 +1,0 @@
-pdfplumber
-nltk
-matplotlib
-seaborn

@@ -1,8 +1,0 @@
-pdfplumber
-nltk
-matplotlib
-seaborn
-fuzzywuzzy
-spacy
-python-Levenshtein
-numpy thinc

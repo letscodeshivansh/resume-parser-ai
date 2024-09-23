@@ -1,6 +1,0 @@
-pdfplumber
-nltk
-matplotlib
-seaborn
-fuzzywazzy
-spacy
